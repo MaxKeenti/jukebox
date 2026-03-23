@@ -31,15 +31,15 @@ class MainActivity : ComponentActivity() {
 
         // Sample Data - Replace with your actual resource IDs
         val items = listOf(
-            JukeboxItem("Sound 1", R.drawable.anakin, R.raw.anakin_1),
-            JukeboxItem("Sound 2", R.drawable.chewie, R.raw.chewie),
-            JukeboxItem("Sound 3", R.drawable.han, R.raw.han),
-            JukeboxItem("Sound 4", R.drawable.lando, R.raw.lando),
-            JukeboxItem("Sound 5", R.drawable.luke, R.raw.luke),
-            JukeboxItem("Sound 6", R.drawable.saber, R.raw.saber),
-            JukeboxItem("Sound 7", R.drawable.vader, R.raw.vader),
-            JukeboxItem("Sound 8", R.drawable.yoda, R.raw.yoda),
-            JukeboxItem("Sound 9", R.drawable.gatito, R.raw.message_1)
+            JukeboxItem("Anakin", R.drawable.anakin, R.raw.anakin_1),
+            JukeboxItem("Chewie", R.drawable.chewie, R.raw.chewie),
+            JukeboxItem("Han", R.drawable.han, R.raw.han),
+            JukeboxItem("Lando", R.drawable.lando, R.raw.lando),
+            JukeboxItem("Luke", R.drawable.luke, R.raw.luke),
+            JukeboxItem("Saber", R.drawable.saber, R.raw.saber),
+            JukeboxItem("Vader", R.drawable.vader, R.raw.vader),
+            JukeboxItem("Yoda", R.drawable.yoda, R.raw.yoda),
+            JukeboxItem("Gsatito", R.drawable.gatito, R.raw.message_1)
         )
 
         setContent {
